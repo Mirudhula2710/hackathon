@@ -82,7 +82,7 @@ export default function CategoryPage({ params }) {
         {/* Section A: Your Rights */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-saffron mb-4 flex items-center gap-2">
-            📖 {t.rights ? Object.keys(t)[0] : ''} Your Rights
+            📖 {language === 'en' ? 'Your Rights' : 'आपके अधिकार'}
           </h2>
           <div className="bg-white dark:bg-gray-800 border-4 border-india-green rounded-lg p-6">
             <p className="text-base md:text-lg text-gray-800 dark:text-gray-200 leading-relaxed">

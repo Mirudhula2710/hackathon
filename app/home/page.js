@@ -83,7 +83,7 @@ export default function HomePage() {
       <section className="py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">
-            {t.categories}
+            {language === 'en' ? 'Categories' : 'श्रेणियाँ'}
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
